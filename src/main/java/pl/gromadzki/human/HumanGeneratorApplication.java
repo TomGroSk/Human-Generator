@@ -8,8 +8,6 @@ public class HumanGeneratorApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(HumanGeneratorApplication.class, args);
-        Human human = new Human();
-        human.cos();
     }
 
 }
