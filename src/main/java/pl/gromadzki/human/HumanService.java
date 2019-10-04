@@ -16,7 +16,6 @@ public class HumanService {
     @Autowired
     public HumanService(Human human) {
         this.human = human;
-        setHumanParameter();
     }
 
     // TODO Received fatal alert: handshake_failure !! NEED TO FIND HOW TO USE BETTER API
@@ -72,6 +71,7 @@ public class HumanService {
 
 
     public Human getHuman() {
+        setHumanParameter();
         return human;
     }
 
